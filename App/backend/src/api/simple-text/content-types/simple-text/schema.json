@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "simple_texts",
+  "info": {
+    "singularName": "simple-text",
+    "pluralName": "simple-texts",
+    "displayName": "SimpleText",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "info": {
+      "type": "string"
+    }
+  }
+}

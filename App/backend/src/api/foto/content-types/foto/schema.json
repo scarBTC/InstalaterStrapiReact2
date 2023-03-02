@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fotos",
+  "info": {
+    "singularName": "foto",
+    "pluralName": "fotos",
+    "displayName": "foto"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "foto": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
